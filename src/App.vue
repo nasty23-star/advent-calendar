@@ -17,7 +17,12 @@ import TheCard from './components/TheCard.vue'
       </nav> -->
     <!-- </div> -->
   </header>
+<main>
 
+</main>
+<footer>
+  
+</footer>
   <RouterView />
 </template>
 
