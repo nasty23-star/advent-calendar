@@ -35,6 +35,8 @@ header {
   position: sticky;
   display: flex;
   justify-content: center;
+  font-family: 'Droid Sans', 'Roboto', 'Oxygen', sans-serif;
+  font-weight: 600;
 }
 main {
   background: lightblue;
