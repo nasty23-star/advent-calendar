@@ -10,6 +10,6 @@
 
 <style scoped>
 div {
-    height: 400px;
+  block-size: 25rem;
 }
 </style>
