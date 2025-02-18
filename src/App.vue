@@ -1,29 +1,21 @@
 <script setup lang="ts">
-// import { RouterLink, RouterView } from 'vue-router'
-// import HelloWorld from './components/HelloWorld.vue'
 import TheCard from './components/TheCard.vue'
 </script>
 
 <template>
-  <header>
+<div>
+<header>
 <h1>Advent Calendar</h1>
-<TheCard></TheCard>
-    <!-- <div class="wrapper">
-      <HelloWorld msg="You did it!" /> -->
+</header>
 
-      <!-- <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav> -->
-    <!-- </div> -->
-  </header>
 <main>
-
+  <TheCard></TheCard>
 </main>
+
 <footer>
-  
+  <p>From Krasnodar with love <3</p>
 </footer>
-  <RouterView />
+</div>
 </template>
 
 <style scoped>
@@ -32,13 +24,25 @@ import TheCard from './components/TheCard.vue'
   padding: 0;
   margin: 0;
 }
+div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 1fr 150px;
+}
 header {
   line-height: 1.5;
-  max-height: 100vh;
   padding-top: 30px;
   position: sticky;
   display: flex;
   justify-content: center;
 }
-
+main {
+  background: lightblue;
+}
+footer {
+  display: grid;
+  justify-items: center; /* Центрирует элементы по горизонтали */
+  align-items: end;
+  padding-block-end: 1.5rem;
+}
 </style>
