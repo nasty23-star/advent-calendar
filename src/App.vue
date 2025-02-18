@@ -38,6 +38,12 @@ header {
 }
 main {
   background: lightblue;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  border-color: darkblue;
 }
 footer {
   display: grid;
