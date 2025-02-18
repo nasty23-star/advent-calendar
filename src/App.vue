@@ -27,11 +27,11 @@ import TheCard from './components/TheCard.vue'
 div {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 150px 1fr 150px;
+  grid-template-rows: 9rem 1fr 9rem;
 }
 header {
   line-height: 1.5;
-  padding-top: 30px;
+  padding-block-start: 2rem;
   position: sticky;
   display: flex;
   justify-content: center;
