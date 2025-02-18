@@ -13,7 +13,7 @@ import TheCard from './components/TheCard.vue'
 </main>
 
 <footer>
-  <p>From Krasnodar with love <3</p>
+  <p>From Krasnodar with love</p>
 </footer>
 </div>
 </template>
