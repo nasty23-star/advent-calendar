@@ -1,11 +1,9 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-<div>
-<div>number</div>
-</div>
+  <div>
+    <div>number</div>
+  </div>
 </template>
 
 <style scoped>

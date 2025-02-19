@@ -3,19 +3,19 @@ import TheCard from './components/TheCard.vue'
 </script>
 
 <template>
-<div>
-<header>
-<h1>Advent Calendar</h1>
-</header>
+  <div>
+    <header>
+      <h1>Advent Calendar</h1>
+    </header>
 
-<main>
-  <TheCard></TheCard>
-</main>
+    <main>
+      <TheCard></TheCard>
+    </main>
 
-<footer>
-  <p>From Krasnodar with love</p>
-</footer>
-</div>
+    <footer>
+      <p>From Krasnodar with love</p>
+    </footer>
+  </div>
 </template>
 
 <style scoped>
