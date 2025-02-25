@@ -9,10 +9,9 @@ const card = ref(props.card);
 </script>
 
 <template>
-  {{ card }}
   <div>
     {{ card.number  }}
-    {{ card.text }}
+    <slot></slot>
   </div>
 </template>
 

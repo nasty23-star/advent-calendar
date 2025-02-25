@@ -64,7 +64,7 @@ const dataCards = [
         v-for="card in dataCards"
         :card="card"
         :key="card.number"
-      ></TheCard>
+      >{{ card.text }}</TheCard>
     </main>
 
     <footer>
