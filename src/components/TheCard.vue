@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from 'vue'
 
 const props = defineProps<{
-  number: number,
-}>();
-const number = ref(props.number);
+  number: number
+}>()
+const number = ref(props.number)
 </script>
 
 <template>
