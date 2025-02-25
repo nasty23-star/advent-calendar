@@ -73,7 +73,6 @@ h1 {
   color: var(--darkblue);
 }
 main {
-  background: lightblue;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-template-rows: repeat(4, 1fr);
