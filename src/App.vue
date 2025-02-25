@@ -1,5 +1,56 @@
 <script setup lang="ts">
 import TheCard from './components/TheCard.vue'
+
+const dataCards = [
+  {number: 1,
+  text: "sos"},
+  {number: 2,
+    text: "sos"},
+    {number: 3,
+  text: "sos"},
+  {number: 4,
+    text: "sos"},
+    {number: 5,
+  text: "sos"},
+  {number: 6,
+    text: "sos"},
+  {number: 7,
+    text: "sos"},
+    {number: 8,
+  text: "sos"},
+  {number: 9,
+    text: "sos"},
+    {number: 10,
+  text: "sos"},
+  {number: 11,
+    text: "sos"},
+  {number: 12,
+    text: "sos"},
+    {number: 13,
+  text: "sos"},
+  {number: 14,
+    text: "sos"},
+    {number: 15,
+  text: "sos"},
+  {number: 16,
+    text: "sos"},
+    {number: 17,
+  text: "sos"},
+  {number: 18,
+    text: "sos"},
+    {number: 19,
+  text: "sos"},
+  {number: 20,
+    text: "sos"},
+    {number: 21,
+  text: "sos"},
+  {number: 22,
+    text: "sos"},
+    {number: 23,
+  text: "sos"},
+  {number: 24,
+    text: "sos"}
+]
 </script>
 
 <template>
@@ -9,7 +60,11 @@ import TheCard from './components/TheCard.vue'
     </header>
 
     <main>
-      <TheCard></TheCard>
+      <TheCard
+        v-for="card in dataCards"
+        :number="card.number"
+        :key="card.number"
+      >{{ card.text }}</TheCard>
     </main>
 
     <footer>
@@ -41,10 +96,12 @@ header {
 main {
   background: lightblue;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
+  gap: 1rem; /* Отступы между элементами сетки */
+  margin: 2rem; /* Внешние отступы со всех сторон */
   border-color: darkblue;
 }
 footer {
