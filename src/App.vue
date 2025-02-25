@@ -62,7 +62,7 @@ const dataCards = [
     <main>
       <TheCard
         v-for="card in dataCards"
-        :card="card"
+        :number="card.number"
         :key="card.number"
       >{{ card.text }}</TheCard>
     </main>

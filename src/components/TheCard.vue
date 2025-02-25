@@ -1,16 +1,15 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import type { ICard } from '@/types/common';
 
 const props = defineProps<{
-  card: ICard
+  number: number,
 }>();
-const card = ref(props.card);
+const number = ref(props.number);
 </script>
 
 <template>
   <div>
-    {{ card.number  }}
+    {{ number }}
     <slot></slot>
   </div>
 </template>

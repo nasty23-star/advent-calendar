@@ -1,4 +1,4 @@
-export interface ICard {
-  number: number,
-  text: string
-}
+// export interface ICard {
+//   number: number,
+//   text: string
+// }
