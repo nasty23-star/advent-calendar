@@ -66,6 +66,11 @@ header {
   justify-content: center;
   font-family: 'Droid Sans', 'Roboto', 'Oxygen', sans-serif;
   font-weight: 600;
+  background: var(--pink);
+  color: var(--darkblue);
+}
+h1 {
+  color: var(--darkblue);
 }
 main {
   background: lightblue;
