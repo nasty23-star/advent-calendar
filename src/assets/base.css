@@ -29,7 +29,7 @@
 
 @font-face {
   font-family: 'TechnoCharm';
-  src: url('../../public/fonts/TechnoCharmDemoVersionRegular-ALaZm.otf') format('opentype');
+  src: url('../fonts/TechnoCharmDemoVersionRegular-ALaZm.otf') format('opentype');
 }
 
 body {
