@@ -56,7 +56,7 @@ const dataCards = [
 div {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 9rem 1fr 9rem;
+  grid-template-rows: 9rem 1fr 3rem;
 }
 header {
   line-height: 1.5;
@@ -71,10 +71,12 @@ header {
 }
 h1 {
   color: var(--darkblue);
+  font-family: 'TechnoCharm';
+  font-size: 3rem;
 }
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;

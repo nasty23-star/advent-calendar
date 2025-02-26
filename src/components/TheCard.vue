@@ -24,8 +24,7 @@ div {
 .card {
   position: relative;
   block-size: 12rem;
-  inline-size: 12rem;
-  color: white;
+  color: var(--darkblue);
   transform-style: preserve-3d;
   transition: transform 1s;
   cursor: pointer;
@@ -41,9 +40,8 @@ input:checked + .card {
   position: absolute;
   block-size: 100%;
   inline-size: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   text-align: center;
   padding-inline: 20px;
   padding-block: 20px;
@@ -53,6 +51,8 @@ input:checked + .card {
   background-image: linear-gradient(to bottom, var(--lighter-violet), var(--pink));
   block-size: 12rem;
   text-align: center;
+  font-family: 'TechnoCharm';
+  font-size: 2rem;
 }
 .back {
   transform: rotateY(180deg);
