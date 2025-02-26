@@ -1,17 +1,15 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --violet: #381f61;
-  --pink: #bf44a3;
-  --purple: #3e1842;
-  --darkblue: #24278f;
-  --lilac: #847aaf;
-  --lighter-violet: hsl(263, 55%, 40%);
+  --pink: #D834BB;
+  --blue: #271446;
+  --white: #ffffff;
 }
 
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--lilac);
-  --color-border: var(--pink);
+  --color-background: var(--blue);
+  --color-text: var(--white);
+  --color-border: var(--white);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -29,7 +27,7 @@
 
 @font-face {
   font-family: 'TechnoCharm';
-  src: url('../../public/fonts/TechnoCharmDemoVersionRegular-ALaZm.otf') format('opentype');
+  src: url('../fonts/TechnoCharmDemoVersionRegular-ALaZm.otf') format('opentype');
 }
 
 body {
