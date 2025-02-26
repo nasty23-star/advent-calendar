@@ -28,6 +28,11 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'TechnoCharm';
+  src: url('../../public/fonts/TechnoCharmDemoVersionRegular-ALaZm.otf') format('opentype');
+}
+
 body {
   min-height: 100vh;
   color: var(--color-text);

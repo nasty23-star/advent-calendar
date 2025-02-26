@@ -24,7 +24,6 @@ div {
 .card {
   position: relative;
   block-size: 12rem;
-  inline-size: 12rem;
   color: white;
   transform-style: preserve-3d;
   transition: transform 1s;
@@ -53,6 +52,8 @@ input:checked + .card {
   background-image: linear-gradient(to bottom, var(--lighter-violet), var(--pink));
   block-size: 12rem;
   text-align: center;
+  font-family: 'TechnoCharm';
+  font-size: 2rem;
 }
 .back {
   transform: rotateY(180deg);
