@@ -52,6 +52,12 @@ const dataCards = [
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-shadow:
+    0 0 10px var(--pink),
+    0 0 20px var(--pink),
+    0 0 40px var(--pink),
+    0 0 80px var(--pink),
+    0 0 160px var(--pink);
 }
 div {
   display: grid;
@@ -66,11 +72,8 @@ header {
   justify-content: center;
   font-family: 'Droid Sans', 'Roboto', 'Oxygen', sans-serif;
   font-weight: 600;
-  background: var(--pink);
-  color: var(--darkblue);
 }
 h1 {
-  color: var(--darkblue);
   font-family: 'TechnoCharm';
   font-size: 3rem;
 }
@@ -82,7 +85,6 @@ main {
   grid-row-gap: 0.5rem;
   gap: 1rem; /* Отступы между элементами сетки */
   margin: 2rem; /* Внешние отступы со всех сторон */
-  border-color: darkblue;
 }
 footer {
   display: grid;

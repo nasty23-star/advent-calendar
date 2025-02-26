@@ -24,10 +24,18 @@ div {
 .card {
   position: relative;
   block-size: 12rem;
-  color: var(--darkblue);
   transform-style: preserve-3d;
   transition: transform 1s;
   cursor: pointer;
+  border: 3px solid var(--color-border);
+  border-radius: 10px;
+  box-shadow:
+    0 0 10px rgba(255, 255, 255, 0.5),
+    inset 0 0 10px var(--pink),
+    0 0 10px var(--pink),
+    inset 0 0 20px var(--pink),
+    0 0 20px var(--pink),
+    inset 0 0 25px var(--pink);
 }
 input {
   position: absolute;
@@ -48,7 +56,6 @@ input:checked + .card {
   backface-visibility: hidden;
 }
 .front {
-  background-image: linear-gradient(to bottom, var(--lighter-violet), var(--pink));
   block-size: 12rem;
   text-align: center;
   font-family: 'TechnoCharm';
