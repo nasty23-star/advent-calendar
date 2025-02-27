@@ -12,15 +12,19 @@ const number = ref(props.number)
     <input type="checkbox" />
     <div class="card">
       <div class="front">{{ number }}</div>
-      <div class="back"><slot></slot></div>
+      <div class="back">
+        <div class="card_title">
+          <slot></slot>
+        </div>
+        <div class="back_href">
+          <slot name="href"></slot>
+        </div>
+      </div>
     </div>
   </label>
 </template>
 
 <style scoped>
-div {
-  block-size: 25rem;
-}
 .card {
   position: relative;
   block-size: 12rem;
@@ -44,7 +48,8 @@ input {
 input:checked + .card {
   transform: rotateY(180deg);
 }
-.card div {
+.card .front,
+.card .back {
   position: absolute;
   block-size: 100%;
   inline-size: 100%;
@@ -62,6 +67,8 @@ input:checked + .card {
   font-size: 2rem;
 }
 .back {
+  display: grid;
+  justify-content: center;
   transform: rotateY(180deg);
   text-transform: none;
   letter-spacing: 0;

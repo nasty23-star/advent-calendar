@@ -1,6 +1,6 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --pink: #D834BB;
+  --pink: #d834bb;
   --blue: #271446;
   --white: #ffffff;
 }
@@ -30,8 +30,11 @@
   src: url('../fonts/TechnoCharmDemoVersionRegular-ALaZm.otf') format('opentype');
 }
 
+#app {
+  block-size: 100dvh;
+}
+
 body {
-  min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
   transition:
