@@ -37,12 +37,12 @@ const dataCards = [
     </header>
 
     <main>
-    <div class="container">
-      <TheCard v-for="card in dataCards" :number="card.number" :key="card.number"
-        >{{ card.text
-        }}<template #href><a :href="card.href" target="_blank">Ссылка</a></template></TheCard
-      >
-    </div>
+      <div class="container">
+        <TheCard v-for="card in dataCards" :number="card.number" :key="card.number"
+          >{{ card.text
+          }}<template #href><a :href="card.href" target="_blank">Ссылка</a></template></TheCard
+        >
+      </div>
     </main>
 
     <footer>
