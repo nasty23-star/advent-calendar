@@ -10,6 +10,8 @@
     "test:unit": "vitest",
     "test:e2e": "playwright test",
     "build-only": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "type-check": "vue-tsc --build",
     "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
     "lint:eslint": "eslint . --fix",
@@ -18,8 +20,7 @@
   },
   "dependencies": {
     "pinia": "^2.3.1",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@playwright/test": "^1.49.1",
@@ -36,6 +37,7 @@
     "eslint-plugin-oxlint": "^0.15.6",
     "eslint-plugin-playwright": "^2.1.0",
     "eslint-plugin-vue": "^9.32.0",
+    "gh-pages": "^6.3.0",
     "jiti": "^2.4.2",
     "jsdom": "^26.0.0",
     "npm-run-all2": "^7.0.2",
