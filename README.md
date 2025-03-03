@@ -1,74 +1,26 @@
+# Проект: небольшой адвент-календарь с рекомендациями фантастических фильмов
+
+## Цель
+
+Попробовать логические свойства CSS и относительные свойства на чём-то небольшом.
+
+## Функционал
+
+Карточки с номерами от 1 до 24, по нажатию карточки открывается рекомендация фильма и ссылка на описание на "Кинопоиске". Страница подстраивается под разную ширину экрана.
+
 # Todo (необязательно в таком порядке)
 
-В перспективе добавить переключение на чб тему, подумать, как можно сделать туман, написать юнит-тесты и скрипт с временем.
+В перспективе хочу добавить переключение на чб тему, подумать, как можно сделать туман, написать юнит-тесты и скрипт с временем.
 
-# Общая идея
+## Технологии
 
-сделать небольшой макет адвент-календаря, в цветах киберпанк, на карточках номера от 1 до 24, переворачиваются по нажатию мышки, внутри ссылки
+CSS Grid, логические свойства, TypeScript, относительные свойства (rem), Vite.
 
-главное - задействовать логические свойства CSS, относительные переменные и цветовую выбранную гамму
+### Запуск
 
-#  advent-calendar
+1. Установить зависимости — `npm i`
 
-This template should help get you started developing with Vue 3 in Vite.
+2. Выполнить команду `npm run dev` —страница автоматически откроется в режиме разработки по адресу [http://localhost:3000/](http://localhost:3000/)
 
-## Recommended IDE Setup
+[Ссылка на проект на GitHub Pages](https://github.com/nasty23-star/advent-calendar/deployments/github-pages)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
