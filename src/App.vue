@@ -93,10 +93,10 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
   grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 0.5rem;
-  grid-row-gap: 0.5rem;
-  gap: 1rem; /* Отступы между элементами сетки */
-  margin: 2rem; /* Внешние отступы со всех сторон */
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.5em;
+  gap: 1em; /* Отступы между элементами сетки */
+  margin: 2em; /* Внешние отступы со всех сторон */
 }
 a {
   color: var(--white);
@@ -113,6 +113,6 @@ footer {
   display: grid;
   justify-content: center;
   align-items: end;
-  padding-block-end: 1.5rem;
+  padding-block-end: 1.5em;
 }
 </style>
