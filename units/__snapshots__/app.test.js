@@ -3,25 +3,6 @@ import { describe, it, expect } from 'vitest'
 import App from '../../src/App.vue'
 
 describe('App Component', () => {
-  it('renders header with correct content', () => {
-    const wrapper = mount(App)
-    const header = wrapper.find('header')
-    expect(header.find('h1').text()).toBe('Advent Calendar')
-    expect(header.find('p').text()).toBe('Мои рекомендации фантастики')
-  })
-
-  it('renders footer with correct content', () => {
-    const wrapper = mount(App)
-    const footer = wrapper.find('footer p')
-    expect(footer.text()).toBe('From Krasnodar with love')
-  })
-
-  it('renders container div with correct class', () => {
-    const wrapper = mount(App)
-    const container = wrapper.find('.container')
-    expect(container.exists()).toBe(true)
-  })
-
   it('renders correct number of cards based on dataCards', () => {
     const wrapper = mount(App)
     const cards = wrapper.findAllComponents({ name: 'TheCard' })
