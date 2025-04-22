@@ -1,0 +1,208 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App Component > matches snapshot 1`] = `
+"<div data-v-7a7a37b1="" class="layout">
+  <header data-v-7a7a37b1="">
+    <h1 data-v-7a7a37b1="">Advent Calendar</h1>
+    <p data-v-7a7a37b1="">Мои рекомендации фантастики</p>
+  </header>
+  <main data-v-7a7a37b1="">
+    <div data-v-7a7a37b1="" class="container"><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">1</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Европа</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/623379/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">2</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Всё везде и сразу</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/1322324/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">3</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Монстры</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/516472/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">4</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Кловерфилд, 10</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/843463/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">5</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Перспектива</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/1113039/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">6</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Поезд в Пусан</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/977288/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">7</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Бескрайняя ночь</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/1083297/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">8</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Временная петля</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/313125/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">9</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Ошибка времени</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/736209/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">10</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Чужие на районе</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/470486/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">11</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Арк: Ковчег времени</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/974465/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">12</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Луна 2112</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/406671/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">13</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">"V" значит Вендетта</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/86208/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">14</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Компаньон</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/6275518/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">15</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Прибытие</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/718811/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">16</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Треугольник</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/406403/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">17</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Начало</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/447301/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">18</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Матрица</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/301/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">19</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Она</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/577488/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">20</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Субстанция</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/4860213/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">21</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Платформа</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/1134778/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">22</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Вечное сияние чистого разума</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/5492/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">23</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Гаттака</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/5012/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label><label data-v-289ab2b1="" data-v-7a7a37b1=""><input data-v-289ab2b1="" type="checkbox">
+        <div data-v-289ab2b1="" class="card">
+          <div data-v-289ab2b1="" class="front">24</div>
+          <div data-v-289ab2b1="" class="back">
+            <div data-v-289ab2b1="" class="card_title">Гравитация</div>
+            <div data-v-289ab2b1="" class="back_href"><a data-v-7a7a37b1="" href="https://www.kinopoisk.ru/film/468466/" target="_blank">Ссылка</a></div>
+          </div>
+        </div>
+      </label></div>
+  </main>
+  <footer data-v-7a7a37b1="">
+    <p data-v-7a7a37b1="">From Krasnodar with love</p>
+  </footer>
+</div>"
+`;
