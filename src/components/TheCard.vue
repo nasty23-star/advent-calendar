@@ -4,14 +4,13 @@ import { ref } from 'vue'
 const props = defineProps<{
   number: number
 }>()
-const number = ref(props.number)
 </script>
 
 <template>
   <label>
     <input type="checkbox" />
     <div class="card">
-      <div class="front">{{ number }}</div>
+      <div class="front">{{ props.number }}</div>
       <div class="back">
         <div class="card_title">
           <slot></slot>

@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TheCard Component > matches snapshot 1`] = `
+"<label data-v-289ab2b1=""><input data-v-289ab2b1="" type="checkbox">
+  <div data-v-289ab2b1="" class="card">
+    <div data-v-289ab2b1="" class="front">7</div>
+    <div data-v-289ab2b1="" class="back">
+      <div data-v-289ab2b1="" class="card_title">Title</div>
+      <div data-v-289ab2b1="" class="back_href"><button>Click</button></div>
+    </div>
+  </div>
+</label>"
+`;
