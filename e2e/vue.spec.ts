@@ -20,11 +20,11 @@ test.describe('Advent Calendar', () => {
     await expect(page.getByText('1', { exact: true })).toBeVisible();
     await expect(page.getByText('12', { exact: true })).toBeVisible();
     await expect(page.getByText('24', { exact: true })).toBeVisible();
-    
+
     // Проверяем общее количество и наличие всех чисел
     const fronts = await page.locator('.front').all();
     expect(fronts.length).toBe(24);
-    
+
     const numbers = await Promise.all(fronts.map(f => f.textContent()));
     for (let i = 1; i <= 24; i++) {
       expect(numbers).toContain(i.toString());
